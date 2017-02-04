@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACED787E1E3B342100031133 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACED787D1E3B342100031133 /* main.m */; };
+		ACED78811E3B342100031133 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACED78801E3B342100031133 /* AppDelegate.m */; };
+		ACED78841E3B342100031133 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACED78831E3B342100031133 /* ViewController.m */; };
+		ACED78871E3B342100031133 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACED78851E3B342100031133 /* Main.storyboard */; };
+		ACED78891E3B342100031133 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACED78881E3B342100031133 /* Assets.xcassets */; };
+		ACED788C1E3B342100031133 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACED788A1E3B342100031133 /* LaunchScreen.storyboard */; };
+		ACED78971E3B342100031133 /* GPJSONModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACED78961E3B342100031133 /* GPJSONModelTests.m */; };
+		ACED78A21E3B342100031133 /* GPJSONModelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACED78A11E3B342100031133 /* GPJSONModelUITests.m */; };
+		ACED78B21E3B35AD00031133 /* NSObject+GPJSONMOdel.m in Sources */ = {isa = PBXBuildFile; fileRef = ACED78B11E3B35AD00031133 /* NSObject+GPJSONMOdel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACED78931E3B342100031133 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACED78711E3B342100031133 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACED78781E3B342100031133;
+			remoteInfo = GPJSONModel;
+		};
+		ACED789E1E3B342100031133 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACED78711E3B342100031133 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACED78781E3B342100031133;
+			remoteInfo = GPJSONModel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACED78791E3B342100031133 /* GPJSONModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPJSONModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACED787D1E3B342100031133 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ACED787F1E3B342100031133 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ACED78801E3B342100031133 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ACED78821E3B342100031133 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ACED78831E3B342100031133 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ACED78861E3B342100031133 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACED78881E3B342100031133 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACED788B1E3B342100031133 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACED788D1E3B342100031133 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACED78921E3B342100031133 /* GPJSONModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPJSONModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACED78961E3B342100031133 /* GPJSONModelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPJSONModelTests.m; sourceTree = "<group>"; };
+		ACED78981E3B342100031133 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACED789D1E3B342100031133 /* GPJSONModelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPJSONModelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACED78A11E3B342100031133 /* GPJSONModelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPJSONModelUITests.m; sourceTree = "<group>"; };
+		ACED78A31E3B342100031133 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACED78B01E3B35AD00031133 /* NSObject+GPJSONMOdel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+GPJSONMOdel.h"; sourceTree = "<group>"; };
+		ACED78B11E3B35AD00031133 /* NSObject+GPJSONMOdel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+GPJSONMOdel.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACED78761E3B342100031133 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACED788F1E3B342100031133 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACED789A1E3B342100031133 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACED78701E3B342100031133 = {
+			isa = PBXGroup;
+			children = (
+				ACED787B1E3B342100031133 /* GPJSONModel */,
+				ACED78951E3B342100031133 /* GPJSONModelTests */,
+				ACED78A01E3B342100031133 /* GPJSONModelUITests */,
+				ACED787A1E3B342100031133 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACED787A1E3B342100031133 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACED78791E3B342100031133 /* GPJSONModel.app */,
+				ACED78921E3B342100031133 /* GPJSONModelTests.xctest */,
+				ACED789D1E3B342100031133 /* GPJSONModelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACED787B1E3B342100031133 /* GPJSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				ACED78AF1E3B358200031133 /* GPJSONModel */,
+				ACED787F1E3B342100031133 /* AppDelegate.h */,
+				ACED78801E3B342100031133 /* AppDelegate.m */,
+				ACED78821E3B342100031133 /* ViewController.h */,
+				ACED78831E3B342100031133 /* ViewController.m */,
+				ACED78851E3B342100031133 /* Main.storyboard */,
+				ACED78881E3B342100031133 /* Assets.xcassets */,
+				ACED788A1E3B342100031133 /* LaunchScreen.storyboard */,
+				ACED788D1E3B342100031133 /* Info.plist */,
+				ACED787C1E3B342100031133 /* Supporting Files */,
+			);
+			path = GPJSONModel;
+			sourceTree = "<group>";
+		};
+		ACED787C1E3B342100031133 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACED787D1E3B342100031133 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ACED78951E3B342100031133 /* GPJSONModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACED78961E3B342100031133 /* GPJSONModelTests.m */,
+				ACED78981E3B342100031133 /* Info.plist */,
+			);
+			path = GPJSONModelTests;
+			sourceTree = "<group>";
+		};
+		ACED78A01E3B342100031133 /* GPJSONModelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACED78A11E3B342100031133 /* GPJSONModelUITests.m */,
+				ACED78A31E3B342100031133 /* Info.plist */,
+			);
+			path = GPJSONModelUITests;
+			sourceTree = "<group>";
+		};
+		ACED78AF1E3B358200031133 /* GPJSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				ACED78B01E3B35AD00031133 /* NSObject+GPJSONMOdel.h */,
+				ACED78B11E3B35AD00031133 /* NSObject+GPJSONMOdel.m */,
+			);
+			name = GPJSONModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACED78781E3B342100031133 /* GPJSONModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACED78A61E3B342100031133 /* Build configuration list for PBXNativeTarget "GPJSONModel" */;
+			buildPhases = (
+				ACED78751E3B342100031133 /* Sources */,
+				ACED78761E3B342100031133 /* Frameworks */,
+				ACED78771E3B342100031133 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GPJSONModel;
+			productName = GPJSONModel;
+			productReference = ACED78791E3B342100031133 /* GPJSONModel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACED78911E3B342100031133 /* GPJSONModelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACED78A91E3B342100031133 /* Build configuration list for PBXNativeTarget "GPJSONModelTests" */;
+			buildPhases = (
+				ACED788E1E3B342100031133 /* Sources */,
+				ACED788F1E3B342100031133 /* Frameworks */,
+				ACED78901E3B342100031133 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACED78941E3B342100031133 /* PBXTargetDependency */,
+			);
+			name = GPJSONModelTests;
+			productName = GPJSONModelTests;
+			productReference = ACED78921E3B342100031133 /* GPJSONModelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACED789C1E3B342100031133 /* GPJSONModelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACED78AC1E3B342100031133 /* Build configuration list for PBXNativeTarget "GPJSONModelUITests" */;
+			buildPhases = (
+				ACED78991E3B342100031133 /* Sources */,
+				ACED789A1E3B342100031133 /* Frameworks */,
+				ACED789B1E3B342100031133 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACED789F1E3B342100031133 /* PBXTargetDependency */,
+			);
+			name = GPJSONModelUITests;
+			productName = GPJSONModelUITests;
+			productReference = ACED789D1E3B342100031133 /* GPJSONModelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACED78711E3B342100031133 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = dandan;
+				TargetAttributes = {
+					ACED78781E3B342100031133 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					ACED78911E3B342100031133 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ACED78781E3B342100031133;
+					};
+					ACED789C1E3B342100031133 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ACED78781E3B342100031133;
+					};
+				};
+			};
+			buildConfigurationList = ACED78741E3B342100031133 /* Build configuration list for PBXProject "GPJSONModel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACED78701E3B342100031133;
+			productRefGroup = ACED787A1E3B342100031133 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACED78781E3B342100031133 /* GPJSONModel */,
+				ACED78911E3B342100031133 /* GPJSONModelTests */,
+				ACED789C1E3B342100031133 /* GPJSONModelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACED78771E3B342100031133 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACED788C1E3B342100031133 /* LaunchScreen.storyboard in Resources */,
+				ACED78891E3B342100031133 /* Assets.xcassets in Resources */,
+				ACED78871E3B342100031133 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACED78901E3B342100031133 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACED789B1E3B342100031133 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACED78751E3B342100031133 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACED78841E3B342100031133 /* ViewController.m in Sources */,
+				ACED78811E3B342100031133 /* AppDelegate.m in Sources */,
+				ACED78B21E3B35AD00031133 /* NSObject+GPJSONMOdel.m in Sources */,
+				ACED787E1E3B342100031133 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACED788E1E3B342100031133 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACED78971E3B342100031133 /* GPJSONModelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACED78991E3B342100031133 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACED78A21E3B342100031133 /* GPJSONModelUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACED78941E3B342100031133 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACED78781E3B342100031133 /* GPJSONModel */;
+			targetProxy = ACED78931E3B342100031133 /* PBXContainerItemProxy */;
+		};
+		ACED789F1E3B342100031133 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACED78781E3B342100031133 /* GPJSONModel */;
+			targetProxy = ACED789E1E3B342100031133 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACED78851E3B342100031133 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACED78861E3B342100031133 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACED788A1E3B342100031133 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACED788B1E3B342100031133 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACED78A41E3B342100031133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACED78A51E3B342100031133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACED78A71E3B342100031133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GPJSONModel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GPYY.com.GPJSONModel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ACED78A81E3B342100031133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GPJSONModel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GPYY.com.GPJSONModel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ACED78AA1E3B342100031133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GPJSONModelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GPYY.com.GPJSONModelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPJSONModel.app/GPJSONModel";
+			};
+			name = Debug;
+		};
+		ACED78AB1E3B342100031133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GPJSONModelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GPYY.com.GPJSONModelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPJSONModel.app/GPJSONModel";
+			};
+			name = Release;
+		};
+		ACED78AD1E3B342100031133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GPJSONModelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GPYY.com.GPJSONModelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GPJSONModel;
+			};
+			name = Debug;
+		};
+		ACED78AE1E3B342100031133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GPJSONModelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GPYY.com.GPJSONModelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GPJSONModel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACED78741E3B342100031133 /* Build configuration list for PBXProject "GPJSONModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACED78A41E3B342100031133 /* Debug */,
+				ACED78A51E3B342100031133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACED78A61E3B342100031133 /* Build configuration list for PBXNativeTarget "GPJSONModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACED78A71E3B342100031133 /* Debug */,
+				ACED78A81E3B342100031133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ACED78A91E3B342100031133 /* Build configuration list for PBXNativeTarget "GPJSONModelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACED78AA1E3B342100031133 /* Debug */,
+				ACED78AB1E3B342100031133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ACED78AC1E3B342100031133 /* Build configuration list for PBXNativeTarget "GPJSONModelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACED78AD1E3B342100031133 /* Debug */,
+				ACED78AE1E3B342100031133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACED78711E3B342100031133 /* Project object */;
+}
