@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ACBD6BFB1E45AF06002D11B6 /* GPClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = ACBD6BFA1E45AF05002D11B6 /* GPClassInfo.m */; };
+		ACBD6BFE1E45B5F4002D11B6 /* GPPropertyInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = ACBD6BFD1E45B5F4002D11B6 /* GPPropertyInfo.m */; };
 		ACED787E1E3B342100031133 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACED787D1E3B342100031133 /* main.m */; };
 		ACED78811E3B342100031133 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACED78801E3B342100031133 /* AppDelegate.m */; };
 		ACED78841E3B342100031133 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACED78831E3B342100031133 /* ViewController.m */; };
@@ -36,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ACBD6BF91E45AF05002D11B6 /* GPClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPClassInfo.h; sourceTree = "<group>"; };
+		ACBD6BFA1E45AF05002D11B6 /* GPClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPClassInfo.m; sourceTree = "<group>"; };
+		ACBD6BFC1E45B5F4002D11B6 /* GPPropertyInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPPropertyInfo.h; sourceTree = "<group>"; };
+		ACBD6BFD1E45B5F4002D11B6 /* GPPropertyInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPPropertyInfo.m; sourceTree = "<group>"; };
 		ACED78791E3B342100031133 /* GPJSONModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPJSONModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACED787D1E3B342100031133 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ACED787F1E3B342100031133 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -149,6 +155,10 @@
 			children = (
 				ACED78B01E3B35AD00031133 /* NSObject+GPJSONMOdel.h */,
 				ACED78B11E3B35AD00031133 /* NSObject+GPJSONMOdel.m */,
+				ACBD6BF91E45AF05002D11B6 /* GPClassInfo.h */,
+				ACBD6BFA1E45AF05002D11B6 /* GPClassInfo.m */,
+				ACBD6BFC1E45B5F4002D11B6 /* GPPropertyInfo.h */,
+				ACBD6BFD1E45B5F4002D11B6 /* GPPropertyInfo.m */,
 			);
 			name = GPJSONModel;
 			sourceTree = "<group>";
@@ -290,6 +300,8 @@
 				ACED78811E3B342100031133 /* AppDelegate.m in Sources */,
 				ACED78B21E3B35AD00031133 /* NSObject+GPJSONMOdel.m in Sources */,
 				ACED787E1E3B342100031133 /* main.m in Sources */,
+				ACBD6BFB1E45AF06002D11B6 /* GPClassInfo.m in Sources */,
+				ACBD6BFE1E45B5F4002D11B6 /* GPPropertyInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -521,6 +533,7 @@
 				ACED78A81E3B342100031133 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ACED78A91E3B342100031133 /* Build configuration list for PBXNativeTarget "GPJSONModelTests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +542,7 @@
 				ACED78AB1E3B342100031133 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ACED78AC1E3B342100031133 /* Build configuration list for PBXNativeTarget "GPJSONModelUITests" */ = {
 			isa = XCConfigurationList;
@@ -537,6 +551,7 @@
 				ACED78AE1E3B342100031133 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
