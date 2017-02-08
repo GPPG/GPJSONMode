@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ACA4C3E61E49CE5D00C06884 /* json.json in Resources */ = {isa = PBXBuildFile; fileRef = ACA4C3E51E49CE5D00C06884 /* json.json */; };
+		ACA4C3EA1E49D57700C06884 /* GPTatalRootData.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA4C3E91E49D57700C06884 /* GPTatalRootData.m */; };
 		ACBD6BFB1E45AF06002D11B6 /* GPClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = ACBD6BFA1E45AF05002D11B6 /* GPClassInfo.m */; };
 		ACBD6BFE1E45B5F4002D11B6 /* GPPropertyInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = ACBD6BFD1E45B5F4002D11B6 /* GPPropertyInfo.m */; };
 		ACED787E1E3B342100031133 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACED787D1E3B342100031133 /* main.m */; };
@@ -38,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ACA4C3E51E49CE5D00C06884 /* json.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = json.json; sourceTree = "<group>"; };
+		ACA4C3E81E49D57700C06884 /* GPTatalRootData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPTatalRootData.h; sourceTree = "<group>"; };
+		ACA4C3E91E49D57700C06884 /* GPTatalRootData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPTatalRootData.m; sourceTree = "<group>"; };
+		ACA4C3EB1E49D7FB00C06884 /* GPJsonToModeTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPJsonToModeTool.h; sourceTree = "<group>"; };
 		ACBD6BF91E45AF05002D11B6 /* GPClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPClassInfo.h; sourceTree = "<group>"; };
 		ACBD6BFA1E45AF05002D11B6 /* GPClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPClassInfo.m; sourceTree = "<group>"; };
 		ACBD6BFC1E45B5F4002D11B6 /* GPPropertyInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPPropertyInfo.h; sourceTree = "<group>"; };
@@ -87,6 +93,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ACA4C3E71E49CED300C06884 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ACA4C3E81E49D57700C06884 /* GPTatalRootData.h */,
+				ACA4C3E91E49D57700C06884 /* GPTatalRootData.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		ACED78701E3B342100031133 = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				ACED78AF1E3B358200031133 /* GPJSONModel */,
+				ACA4C3E71E49CED300C06884 /* Model */,
 				ACED787F1E3B342100031133 /* AppDelegate.h */,
 				ACED78801E3B342100031133 /* AppDelegate.m */,
 				ACED78821E3B342100031133 /* ViewController.h */,
@@ -128,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				ACED787D1E3B342100031133 /* main.m */,
+				ACA4C3E51E49CE5D00C06884 /* json.json */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -159,6 +176,7 @@
 				ACBD6BFA1E45AF05002D11B6 /* GPClassInfo.m */,
 				ACBD6BFC1E45B5F4002D11B6 /* GPPropertyInfo.h */,
 				ACBD6BFD1E45B5F4002D11B6 /* GPPropertyInfo.m */,
+				ACA4C3EB1E49D7FB00C06884 /* GPJsonToModeTool.h */,
 			);
 			name = GPJSONModel;
 			sourceTree = "<group>";
@@ -269,6 +287,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACA4C3E61E49CE5D00C06884 /* json.json in Resources */,
 				ACED788C1E3B342100031133 /* LaunchScreen.storyboard in Resources */,
 				ACED78891E3B342100031133 /* Assets.xcassets in Resources */,
 				ACED78871E3B342100031133 /* Main.storyboard in Resources */,
@@ -302,6 +321,7 @@
 				ACED787E1E3B342100031133 /* main.m in Sources */,
 				ACBD6BFB1E45AF06002D11B6 /* GPClassInfo.m in Sources */,
 				ACBD6BFE1E45B5F4002D11B6 /* GPPropertyInfo.m in Sources */,
+				ACA4C3EA1E49D57700C06884 /* GPTatalRootData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

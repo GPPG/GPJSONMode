@@ -1,0 +1,548 @@
+
+{
+"code": "0",
+"items": {
+"id": "67",
+"mac": "020092b4c3bb",
+"name": "020092b4c3bb",
+"remark": "无",
+"ui": {
+"floor": [
+{
+"id": "106",
+"name": "楼层1",
+"remark": "无",
+"room": [
+{
+"device": [
+{
+"id": "665",
+"name": "L1",
+"type": "light",
+"widget": [
+{
+"name": "开关",
+"receive": [
+{
+"address": "020101",
+"value": "0",
+"value_type": "1"
+}
+],
+"send": [
+{
+"address": "010101",
+"value": "0",
+"value_type": "1"
+}
+],
+"type": "switch"
+}
+]
+},
+{
+"id": "666",
+"name": "L2",
+"type": "light",
+"widget": [
+{
+"name": "开关",
+"receive": [
+{
+"address": "020102",
+"value": "0",
+"value_type": "1"
+}
+],
+"send": [
+{
+"address": "010102",
+"value": "0",
+"value_type": "1"
+}
+],
+"type": "switch"
+}
+]
+},
+{
+"id": "745",
+"name": "窗帘",
+"type": "curtain",
+"widget": [
+{
+"name": "上移/下移",
+"receive": [
+{
+"address": "0a000e",
+"value": "0",
+"value_type": "1"
+}
+],
+"send": [
+{
+"address": "0a000e",
+"value": "0",
+"value_type": "1"
+}
+],
+"type": "switch"
+},
+{
+"name": "调整/停止",
+"receive": [
+{
+"address": "0a000f",
+"value": "0",
+"value_type": "1"
+}
+],
+"send": [
+{
+"address": "0a000f",
+"value": "0",
+"value_type": "1"
+}
+],
+"type": "switch"
+}
+]
+},
+{
+"id": "748",
+"name": "卷叶",
+"type": "rolled",
+"widget": [
+{
+"maxvalue": "255",
+"minvalue": "0",
+"name": "窗帘行程",
+"receive": [
+{
+"address": "0a000a",
+"value": "76",
+"value_type": "4"
+}
+],
+"send": [
+{
+"address": "0a000c",
+"value": "0",
+"value_type": "4"
+}
+],
+"type": "slider"
+}
+]
+},
+{
+"id": "837",
+"name": "吊灯",
+"type": "drop_light",
+"widget": [
+{
+"name": "开关",
+"receive": [
+{
+"address": "020105",
+"value": "0",
+"value_type": "1"
+}
+],
+"send": [
+{
+"address": "010105",
+"value": "0",
+"value_type": "1"
+}
+],
+"type": "switch"
+},
+{
+"maxvalue": "255",
+"minvalue": "0",
+"name": "绝对调光",
+"receive": [
+{
+"address": "020108",
+"value": "0",
+"value_type": "4"
+}
+],
+"send": [
+{
+"address": "050101",
+"value": "0",
+"value_type": "4"
+}
+],
+"type": "slider"
+}
+]
+}
+],
+"id": "185",
+"name": "房间2",
+"remark": "无"
+},
+{
+"device": [
+{
+"id": "730",
+"name": "PM25",
+"type": "pm",
+"widget": [
+{
+"name": "传感器",
+"receive": [
+{
+"address": "010001",
+"value": "62",
+"value_type": "5"
+}
+],
+"send": [
+{
+"address": "010001",
+"value": "62",
+"value_type": "5"
+}
+],
+"type": "sensor"
+}
+]
+},
+{
+"id": "731",
+"name": "温度",
+"type": "outdoor_temperature",
+"widget": [
+{
+"name": "传感器",
+"receive": [
+{
+"address": "010004",
+"value": "3368",
+"value_type": "5"
+}
+],
+"send": [
+{
+"address": "010004",
+"value": "3368",
+"value_type": "5"
+}
+],
+"type": "sensor"
+}
+]
+},
+{
+"id": "732",
+"name": "VOC",
+"type": "voc",
+"widget": [
+{
+"name": "传感器",
+"receive": [
+{
+"address": "010006",
+"value": "0",
+"value_type": "5"
+}
+],
+"send": [
+{
+"address": "010006",
+"value": "0",
+"value_type": "5"
+}
+],
+"type": "sensor"
+}
+]
+},
+{
+"id": "733",
+"name": "照度",
+"type": "lux",
+"widget": [
+{
+"name": "传感器",
+"receive": [
+{
+"address": "010000",
+"value": "14",
+"value_type": "5"
+}
+],
+"send": [
+{
+"address": "010000",
+"value": "14",
+"value_type": "5"
+}
+],
+"type": "sensor"
+}
+]
+},
+{
+"id": "750",
+"name": "能源管理",
+"type": "energy",
+"widget": [
+{
+"name": "电压",
+"receive": [
+{
+"address": "0c0101",
+"value": "9585",
+"value_type": "5"
+}
+],
+"send": [
+{
+"address": "0c0101",
+"value": "9585",
+"value_type": "5"
+}
+],
+"type": "voltage"
+},
+{
+"name": "电流",
+"receive": [
+{
+"address": "0c0201",
+"value": "0",
+"value_type": "5"
+}
+],
+"send": [
+{
+"address": "0c0201",
+"value": "0",
+"value_type": "5"
+}
+],
+"type": "electricity"
+},
+{
+"name": "用电度数",
+"receive": [
+{
+"address": "0f07ff",
+"value_type": "1"
+}
+],
+"send": [
+{
+"address": "0f07ff",
+"value_type": "1"
+}
+],
+"type": "power"
+}
+]
+},
+{
+"id": "751",
+"name": "风速",
+"type": "wind_speed",
+"widget": [
+{
+"name": "传感器",
+"receive": [
+{
+"address": "0c0501",
+"value": "0",
+"value_type": "5"
+}
+],
+"send": [
+{
+"address": "0c0501",
+"value": "0",
+"value_type": "5"
+}
+],
+"type": "sensor"
+}
+]
+},
+{
+"id": "1264",
+"name": "111",
+"type": "tv6",
+"widget": [
+{
+"receive": [
+{
+"address": "0f07ff",
+"value": "0"
+}
+],
+"send": [
+{
+"address": "0f07ff",
+"value": "0"
+}
+],
+"type": "button"
+},
+{
+"receive": [
+{
+"address": "0f07ff",
+"value": "0"
+}
+],
+"send": [
+{
+"address": "0f07ff",
+"value": "0"
+}
+],
+"type": "button"
+},
+{
+"receive": [
+{
+"address": "0f07ff",
+"value": "0"
+}
+],
+"send": [
+{
+"address": "0f07ff",
+"value": "0"
+}
+],
+"type": "button"
+},
+{
+"receive": [
+{
+"address": "0f07ff",
+"value": "0"
+}
+],
+"send": [
+{
+"address": "0f07ff",
+"value": "0"
+}
+],
+"type": "button"
+},
+{
+"receive": [
+{
+"address": "0f07ff",
+"value": "0"
+}
+],
+"send": [
+{
+"address": "0f07ff",
+"value": "0"
+}
+],
+"type": "button"
+},
+{
+"receive": [
+{
+"address": "0f07ff",
+"value": "0"
+}
+],
+"send": [
+{
+"address": "0f07ff",
+"value": "0"
+}
+],
+"type": "button"
+}
+]
+}
+],
+"id": "187",
+"name": "客厅",
+"remark": "无"
+},
+{
+"device": [
+{
+"id": "838",
+"name": "地暖",
+"type": "pipes",
+"widget": [
+{
+"name": "开关",
+"receive": [
+{
+"address": "0e0102",
+"value_type": "1"
+}
+],
+"send": [
+{
+"address": "0e0101",
+"value": "0",
+"value_type": "1"
+}
+],
+"type": "switch"
+},
+{
+"maxvalue": "null",
+"minvalue": "null",
+"name": "温度",
+"receive": [
+{
+"address": "0e0301",
+"value_type": "5"
+}
+],
+"send": [
+{
+"address": "0e0201",
+"value": "0",
+"value_type": "5"
+}
+],
+"type": "button"
+},
+{
+"name": "实际温度",
+"receive": [
+{
+"address": "0f07fd",
+"value_type": "1"
+}
+],
+"send": [
+{
+"address": "0f07fd",
+"value_type": "1"
+}
+],
+"type": "button"
+}
+]
+}
+],
+"id": "188",
+"name": "忽略我",
+"remark": "无"
+}
+]
+}
+]
+}
+},
+"message": "正常"
+}

@@ -38,8 +38,17 @@
 + (instancetype)GP_ModeWithDictonary:(NSDictionary *)dic;
 - (void)GP_SetModelWithDictonary:(NSDictionary *)dic;
 
-@end
+// 模型转 json
+- (id)GP_ModelToJSONObject;
+- (NSData *)GP_ModelToJSONData;
+- (NSString *)GP_ModelToJSONString;
+- (NSDictionary *)GP_ModelToDictonary;
 
+// dic array to model array
++ (NSArray *)GP_ModelArrayWithDictionaryArray:(NSArray *)dicArray;
+// model array to dic array
++ (NSArray *)GP_DictionaryArrayWithModelArray:(NSArray *)dicArray;
+@end
 
 @interface NSArray (GPJSONMOdel)
 // 数组转模型数组

@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "GPTatalRootData.h"
 
 @interface ViewController ()
 
@@ -16,13 +17,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"json.json" ofType:nil];
+    //加载JSON文件
+    NSData *data = [NSData dataWithContentsOfFile:path];
+    GPTatalRootData *rootData = [GPTatalRootData GP_ModeWithJSON:data];
+    GPTatalItem *item =  rootData.items;
+    GPTatalData *tData = item.ui;
+    
+    NSLog(@"%lu--%@",(unsigned long)tData.floor.count,item.name);
+    
+    for (GPTatalFloor *floorr in tData.floor) {
+        NSLog(@"%@--%@--%@",floorr.name,floorr.remark,floorr.id);
+    }
 }
 
 
