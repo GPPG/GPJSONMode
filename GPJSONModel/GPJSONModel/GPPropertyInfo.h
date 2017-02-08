@@ -11,15 +11,15 @@
 
 @interface GPPropertyInfo : NSObject
 // 属性名
-@property (nonatomic, strong) NSString *propertyName;
+@property (nonatomic, strong,readonly) NSString *propertyName;
 // 属性 class 的类型
-@property (nonatomic, strong) Class typeClass;
+@property (nonatomic, strong,readonly) Class typeClass;
 // 是否自定义对象类型
-@property (nonatomic,assign) BOOL isCustomFondation;
+@property (nonatomic,assign,readonly) BOOL isCustomFondation;
 // 属性 setter 方法
-@property (nonatomic,assign) SEL setter;
+@property (nonatomic,assign,readonly) SEL setter;
 // 属性 getter 方法
-@property (nonatomic,assign) SEL getter;
+@property (nonatomic,assign,readonly) SEL getter;
 
 - (instancetype)initWithProperty:(objc_property_t)property;
 // 是否是Foundation对象类型

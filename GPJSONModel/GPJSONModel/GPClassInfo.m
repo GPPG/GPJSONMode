@@ -28,6 +28,7 @@ static NSCache *s_classInfoCache;
         unsigned int propertyCount = 0;
         // 获取属性 list
         objc_property_t *properties = class_copyPropertyList(_cls, &propertyCount);
+
         if (properties) {
             NSMutableDictionary *propertyInfo = [NSMutableDictionary dictionaryWithCapacity:propertyCount];
             for (unsigned int i = 0; i < propertyCount; i ++) {

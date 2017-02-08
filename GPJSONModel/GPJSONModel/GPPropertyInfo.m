@@ -64,7 +64,10 @@
         if (attrs) {
             free(attrs);
         }
-        
+        if (_typeClass) {
+            // 判断是否自定义对象类型
+            _isCustomFondation = ![[self class] isClassFromFoundation:_typeClass];
+        }
         if (_typeClass && _propertyName.length > 0) {
             
             if (!_getter) {

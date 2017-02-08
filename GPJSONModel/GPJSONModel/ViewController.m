@@ -17,19 +17,25 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self dicToMode];
+}
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    [super touchesBegan:touches withEvent:event];
+    [self dicToMode];
+}
+
+- (void)dicToMode
+{
     NSString *path = [[NSBundle mainBundle] pathForResource:@"json.json" ofType:nil];
     //加载JSON文件
     NSData *data = [NSData dataWithContentsOfFile:path];
     GPTatalRootData *rootData = [GPTatalRootData GP_ModeWithJSON:data];
     GPTatalItem *item =  rootData.items;
     GPTatalData *tData = item.ui;
-    
     NSLog(@"%lu--%@",(unsigned long)tData.floor.count,item.name);
-    
     for (GPTatalFloor *floorr in tData.floor) {
         NSLog(@"%@--%@--%@",floorr.name,floorr.remark,floorr.id);
     }
 }
-
-
 @end

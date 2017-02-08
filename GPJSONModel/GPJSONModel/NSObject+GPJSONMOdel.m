@@ -54,7 +54,6 @@
 // 字典转模型
 - (void)GP_SetModelWithDictonary:(NSDictionary *)dic
 {
-    
     if (!dic || ![dic isKindOfClass:[NSDictionary class]] || dic.count == 0) {
         return;
     }
@@ -146,6 +145,7 @@
                 value = nil;
             }
             if (propertyInfo.typeClass) {
+                // 对象类型
                 if ([propertyInfo.typeClass isSubclassOfClass:[NSString class]] && [value isKindOfClass:[NSNumber class]]) {
                     value = [(NSNumber *)value stringValue];
                     
@@ -319,7 +319,7 @@
             [modelArray addObject:value];
         }
     }
-    return modelArray;
+    return [modelArray copy];
 }
 // 模型数组转数组
 - (NSArray *)GP_ModelArrayToDicArray
