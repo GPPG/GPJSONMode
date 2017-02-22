@@ -30,8 +30,8 @@
     NSString *path = [[NSBundle mainBundle] pathForResource:@"json.json" ofType:nil];
     //加载JSON文件
     NSData *data = [NSData dataWithContentsOfFile:path];
-    GPTatalRootData *rootData = [GPTatalRootData GP_ModeWithJSON:data];
-    GPTatalItem *item =  rootData.items;
+    GPTatalItem *item = [GPTatalItem GP_ModeWithJSON:data];
+//    GPTatalItem *item =  rootData.items;
     GPTatalData *tData = item.ui;
     NSLog(@"%lu--%@",(unsigned long)tData.floor.count,item.name);
     for (GPTatalFloor *floorr in tData.floor) {

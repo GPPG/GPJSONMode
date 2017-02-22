@@ -32,6 +32,7 @@
     
     if (jsonData) {
         dic = [NSJSONSerialization JSONObjectWithData:jsonData options:kNilOptions error:NULL];
+        
         if (![dic isKindOfClass:[NSDictionary class]]) {
             dic = nil;
         }
@@ -111,7 +112,8 @@
                         // 自定义处理未知 value
                         value = [self customValueWithKey:key unkownValueArray:value];
                     }
-                }else{
+                }
+                 else{
                     // 返回数据有误
                     value = nil;
                 }
@@ -135,7 +137,8 @@
                     // 自定义处理未知value
                     value = [self customValueWithKey:key unkownValueDic:value];
                 }
-            }else {
+            }
+            else {
                 // 属性 不是 字典类型 返回数据有误
                 value = nil;
             }
